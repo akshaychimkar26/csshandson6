@@ -1,0 +1,144 @@
+
+body{
+    background-image: url(./sahara\ desert.jpg);
+    
+}
+
+.logo{
+    position: absolute;
+    top: 6%;
+    left: 8%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    right: 6vw;
+}
+
+.card{
+    padding: 2vw;
+}
+
+.set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text{
+    width: 40%;
+    position: relative;
+    left: 6rem;
+    top: 5rem;
+}
+
+.head1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: -2rem;
+}
+
+.para1{
+    color: white;
+    line-height: 2rem;
+}
+
+.explo{
+    background-color: white;
+    width: 4.5rem;
+    border-radius: 20px;
+    padding: 0.5rem 4rem;
+    margin-top: 1.5rem;
+}
+
+.bigbox{
+   
+    width: 40%;
+
+}
+
+.card-grp{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+}
+
+.card1{
+    width: 210px;
+    height: 250px;
+   
+    margin: 15px;
+    border-radius: 15px;
+}
+.card1:hover{
+    position: relative;
+    bottom: 0.5rem;
+}
+
+ .pic1{
+    background-image: url(./S11.jpg) ;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+} 
+
+.pic2{
+    background-image: url(./pic-2.png) ;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+} 
+
+.pic3{
+    background-image: url(./pic-3.png) ;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+} 
+
+.pic4{
+    background-image: url(./pic-4.png) ;
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+
+.disp1{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    color: white;
+}
+
+@media (max-width: 856px) {
+
+    .set{
+        flex-direction: column;
+    }
+    .text{
+        width: 100%; 
+        position: relative;
+      left: 9vw;
+    top: -2vh;
+}
+    .bigbox{
+        width: 100%;
+    }  
+  
+    .card1{
+        width: 80%;
+    }
+
+    .card-grp{
+        justify-content: center;
+    }
+    
+}
